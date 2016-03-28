@@ -1,7 +1,7 @@
 database: cassandra
 cassandra:
   contact_points:
-    - "cassandra:9042"
+    - "cassandra.sample.svc.cluster.local:9042"
 nginx: |
   {{user}}
   worker_processes auto;
